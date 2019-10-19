@@ -8,7 +8,7 @@ class App extends React.Component {
 
   render() {
     return (
-    <div className="App" style={{height: "1500px", background:'red'}}>
+    <div className="App" style={{height: "1900px", background:'red'}}>
       <Header/>
     </div>
     )
