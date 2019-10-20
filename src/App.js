@@ -6,6 +6,8 @@ import Featured from './Components/featured'
 import VenueNfo from './Components/venueNfo'
 import Highlights from './Components/highlights'
 
+import Pricing from './Components/pricing'
+
 class App extends React.Component {
   
 
@@ -16,6 +18,7 @@ class App extends React.Component {
       <Featured/>
       <VenueNfo/>
       <Highlights/>
+      <Pricing/>
     </div>
     )
   }
