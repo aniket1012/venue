@@ -5,6 +5,8 @@ import Header from './Components/header_footer/Header'
 import Featured from './Components/featured'
 import VenueNfo from './Components/venueNfo'
 import Highlights from './Components/highlights'
+import Location from './Components/location'
+import Footer from './Components/header_footer/Footer'
 
 import Pricing from './Components/pricing'
 
@@ -19,6 +21,8 @@ class App extends React.Component {
       <VenueNfo/>
       <Highlights/>
       <Pricing/>
+      <Location/>
+      <Footer/>
     </div>
     )
   }
