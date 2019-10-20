@@ -3,6 +3,7 @@ import './resources/styles.css'
 import Header from './Components/header_footer/Header'
 
 import Featured from './Components/featured'
+import VenueNfo from './Components/venueNfo'
 
 class App extends React.Component {
   
@@ -12,6 +13,7 @@ class App extends React.Component {
     <div className="App" style={{height: "1900px", background:'red'}}>
       <Header/>
       <Featured/>
+      <VenueNfo/>
     </div>
     )
   }
